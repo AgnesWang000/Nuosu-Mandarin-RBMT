@@ -100,21 +100,16 @@ More documentations
 Refer to our wiki page for more detailed documentations
 
 Nuosu-Mandarin Main Page
-
 https://wikis.swarthmore.edu/ling073/Nuosu_and_Mandarin
 
 Lexical Selection
-
 https://wikis.swarthmore.edu/ling073/Nuosu_and_Mandarin/Lexical_selection
 
 Contrastive Grammar
-
 https://wikis.swarthmore.edu/ling073/Nuosu_and_Mandarin/Contrastive_grammar
 
 Structural Transfer
-
 https://wikis.swarthmore.edu/ling073/Nuosu_and_Mandarin/Structural_transfer
 
 Final Updates & Evaluation
-
 https://wikis.swarthmore.edu/ling073/Nuosu_and_Mandarin/Final_Project
