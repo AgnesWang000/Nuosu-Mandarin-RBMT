@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules glob="star">
+  <!--
+    This rule chooses "energía" as the translation of "power" when it is preceded by "wind".
+    Add your own rules within <rule> here, using the resources below as a guide
+  -->
+
+<rule weight="0.8">
+   <match lemma="ke" tags="n.*">
+      <select lemma="狗" tags="n.*"/>
+   </match>
+</rule>
+
+<rule>
+  <match lemma="ke" tags="n.*">
+    <select lemma="嘴" tags="n.*"/>
+  </match>
+  <match lemma="go"/>
+</rule>
+  
+ <rule>
+  <match lemma="zza"/>
+  <match lemma="zzi" tags="vblex.*">
+    <select lemma="剩" tags="vblex.*"/>
+  </match>
+</rule>
+  
+  <rule weight="0.8">
+     <match lemma="zzi" tags="vblex.*">
+        <select lemma="遇到" tags="vblex.*"/>
+     </match>
+</rule>
+  
+  
+</rules>
+
+<!--
+Resources:
+    https://wiki.apertium.org/wiki/How_to_get_started_with_lexical_selection_rules
+    https://wiki.apertium.org/wiki/Constraint-based_lexical_selection
+    https://wiki.apertium.org/wiki/Lexical_selection
+    https://wiki.apertium.org/wiki/Learning_rules_from_parallel_and_non-parallel_corpora
+-->
+

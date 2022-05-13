@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <!-- iii → zho -->
+
+  <mode name="iii-zho" install="yes" gendebug="yes">
+    <pipeline>
+
+      <!-- tokenization -->
+      <program name="python3">
+        <file name="tokenize.py"/>
+        <file name="iii@Yi-zho.autotok.hfst"/>
+      </program>
+
+      <program name="lt-proc -w">
+        <file name="iii-zho.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w -n -1">
+        <file name="iii-zho.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="iii-zho.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="iii-zho.autolex.bin"/>
+      </program>
+
+
+      <program name="rtx-proc">
+        <file name="iii-zho.rtx.bin"/>
+      </program>
+
+      <program name="lt-proc $1">
+        <file name="iii-zho.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="iii-zho.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <!-- zho → iii -->
+
+  <mode name="zho-iii" install="yes" gendebug="yes">
+    <pipeline>
+
+      <program name="lt-proc -w">
+        <file name="zho-iii.automorf.bin"/>
+      </program>
+
+      <program name="cg-proc -w">
+        <file name="zho-iii.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="zho-iii.prob"/>
+      </program>
+
+
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="zho-iii.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="zho-iii.autolex.bin"/>
+      </program>
+
+
+      <program name="rtx-proc">
+        <file name="zho-iii.rtx.bin"/>
+      </program>
+
+      <program name="lt-proc $1">
+        <file name="zho-iii.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="zho-iii.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+</modes>

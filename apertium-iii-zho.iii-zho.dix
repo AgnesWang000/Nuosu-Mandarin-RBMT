@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+
+   <!-- Define the alphabet below. -->
+   <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
+
+  <sdefs>
+    <!-- Define symbol definitions within <sdef> here. -->
+    <sdef n="n"               c="Noun"/>
+    <sdef n="np"              c="Proper noun"/>
+    <sdef n="vblex"           c="Verb, lexical"/>
+    <sdef n="vbmod"           c="Modal verb"/>
+    <sdef n="vaux"            c="Auxiliary verb"/>
+    <sdef n="vbser"           c="'To be' verb"/>
+    <sdef n="vbhaver"         c="'To have' verb"/>
+    <sdef n="cnjsub"          c="Subordinating conjunction"/>
+    <sdef n="cnjcoo"          c="Co-ordinating conjunction"/>
+    <sdef n="cnjadv"          c="Adverbial conjunction"/>
+    <sdef n="pr"              c="Preposition"/>
+    <sdef n="post"            c="Postposition"/>
+    <sdef n="adv"             c="Adverb"/>
+    <sdef n="ij"              c="Interjection"/>
+    <sdef n="adj"             c="Adjective"/>
+    <sdef n="prn"             c="Pronoun"/>
+     
+    <sdef n="advl"             c="Adverbializer"/>
+
+    <sdef n="attr"            c="Attributive"/>
+    <sdef n="top"             c="Toponym"/>
+    <sdef n="ant"             c="Anthroponym"/>
+    <sdef n="cog"             c="Cognomen"/>
+    <sdef n="org"             c="Organisation"/>
+    <sdef n="al"              c="Altres / misc proper nouns"/>
+
+    <sdef n="pers"            c="Personal pronoun"/>
+    <sdef n="ref"             c="Reflexive pronoun"/>
+    <sdef n="res"             c="Reciprocal pronoun"/>
+
+    <sdef n="det"             c="Determiner"/>
+    <sdef n="pos"             c="Possessive"/>
+
+    <sdef n="p1"              c="1st person"/>
+    <sdef n="p2"              c="2nd person"/>
+    <sdef n="p3"              c="3rd person"/>
+
+    <sdef n="nt"              c="Neuter"/>
+    <sdef n="ut"              c="Utrum"/>
+    <sdef n="f"               c="Feminine"/>
+    <sdef n="m"               c="Masculine"/>
+    <sdef n="un"              c="No gender"/>
+
+    <sdef n="sg"              c="Singular"/>
+    <sdef n="du"              c="Dual"/>
+    <sdef n="pl"              c="Plural"/>
+    <sdef n="sp"              c="Singular / plural"/>
+
+    <sdef n="ind"             c="Indefinite"/>
+    <sdef n="def"             c="Definite"/>
+
+    <sdef n="nom"             c="Nominative"/>
+    <sdef n="acc"             c="Accusative"/>
+    <sdef n="gen"             c="Genitive"/>
+
+    <sdef n="dem"             c="Demonstrative"/>
+    <sdef n="itg"             c="Question word / interrogative"/>
+    <sdef n="qnt"             c="Quantifier"/>
+    <sdef n="neg"             c="Negative"/>
+    <sdef n="emph"            c="Emphatic"/>
+
+    <sdef n="inf"             c="Infinitive"/>
+    <sdef n="pres"            c="Present"/>
+    <sdef n="imp"             c="Imperative"/>
+    <sdef n="pret"            c="Preterite"/>
+    <sdef n="pp"              c="Perfect participle"/>
+    <sdef n="pprs"            c="Present participle"/>
+    <sdef n="pasv"            c="Passive"/>
+    <sdef n="actv"            c="Active voice"/>
+
+    <sdef n="sint"            c="Synthetic (of adjectives)"/>
+    <sdef n="pst"             c="Positive"/>
+    <sdef n="comp"            c="Comparative"/>
+    <sdef n="sup"             c="Superlative"/>
+
+    <sdef n="ord"             c="Ordinal"/>
+    <sdef n="acr"             c="Acronym"/>
+    <sdef n="unc"             c="Uncountable"/>
+
+    <sdef n="num"             c="Numeral"/>
+    <sdef n="sent"            c="Sentence end"/>
+    <sdef n="cm"              c="Comma"/>
+    <sdef n="apos"            c="Apostrophe"/>
+    <sdef n="guio"            c="Dash"/>
+    <sdef n="lpar"            c="Left parenthesis"/>
+    <sdef n="rpar"            c="Right parenthesis"/>
+    <sdef n="lquot"           c="Left quote"/>
+    <sdef n="rquot"           c="Right quote"/>
+    <sdef n="part"            c="Particle"/>
+    <sdef n="cl"              c="Classifier"/>
+
+
+    <sdef n="compound-only-L" c="May only be the left-side of a compound"/>
+    <sdef n="compound-R"      c="May be the right-side of a compound, or a full word"/>
+  </sdefs>
+
+   <section id="main" type="standard">
+ 
+      <e><p><l>lyp<s n="n"/></l><r>种子<s n="n"/></r></p></e>
+      <e><p><l>hxiyip<s n="adv"/></l><r>并<s n="adv"/></r></p></e>
+      <e><p><l>nyitcy<s n="n"/></l><r>鬼<s n="n"/></r></p></e>
+      <e><p><l>mgot<s n="vblex"/></l><r>赶<s n="vblex"/></r></p></e>
+      <e><p><l>nzyke<s n="n"/></l><r>权柄<s n="n"/></r></p></e>
+      <e><p><l>ddie<s n="vblex"/></l><r>给<s n="vblex"/></r></p></e>
+      <e><p><l>bbyx<s n="vblex"/></l><r>给<s n="vblex"/></r></p></e>      
+      <e><p><l>burlopbur<s n="vblex"/></l><r>一再重复<s n="vblex"/></r></p></e>
+      <e><p><l>cyp<s n="prn"/></l><r>他的<s n="prn"/></r></p></e>
+      <e><p><l>ndip<s n="n"/></l><r>地方<s n="n"/></r></p></e>
+      <e><p><l>tat<s n="adv"/></l><r>不要<s n="adv"/></r></p></e>
+      <e><p><l>bit<s n="vblex"/></l><r>透露<s n="vblex"/></r></p></e>
+      <e><p><l>ddix<s n="vblex"/></l><r>说<s n="vblex"/></r></p></e>
+      <e><p><l>mu<s n="part"/></l><r>地<s n="part"/></r></p></e>
+      <e><p><l>nga<s n="prn"/></l><r>我<s n="prn"/></r></p></e>
+      <e><p><l>nit<s n="prn"/></l><r>你的<s n="prn"/></r></p></e>
+      <e><p><l>jop<s n="pr"/></l><r>向<s n="pr"/></r></p></e>
+      <e><p><l>hxip<s n="vblex"/></l><r>嘱咐<s n="vblex"/></r></p></e>
+      <e><p><l>cop<s n="prn"/></l><r>他们<s n="prn"/></r></p></e>
+      <e><p><l>copwox<s n="prn"/></l><r>他们<s n="prn"/></r></p></e>
+      <e><p><l>depla<s n="vblex"/></l><r>起来<s n="vblex"/></r></p></e>
+      <e><p><l>kolo<s n="n"/></l><r>床具<s n="n"/></r></p></e>
+      <e><p><l>repsix<s n="vblex"/></l><r>收起<s n="vblex"/></r></p></e>
+      <e><p><l>ixgo<s n="n"/></l><r>家<s n="n"/></r></p></e>
+      <e><p><l>bbossox<s n="vblex"/></l><r>去<s n="vblex"/></r></p></e>
+      <e><p><l>bburmasytmuco<s n="n"/></l><r>文士<s n="n"/></r></p></e>
+      <e><p><l>xip<s n="part"/></l><r>这样<s n="part"/></r></p></e>
+      <e><p><l>kepnyip<s n="adj"/></l><r>几<s n="adj"/></r></p></e>
+      <e><p><l>yuot<s n="cl"/></l><r>个<s n="num"/></r></p></e>
+      <e><p><l>addit<s n="prn"/></l><r>那里<s n="prn"/></r></p></e>
+      <e><p><l>go<s n="pr"/></l><r>在<s n="pr"/></r></p></e>
+      <e><p><l>nyi<s n="adv"/></l><r>都<s n="adv"/></r></p></e>
+      <e><p><l>nyi<s n="vblex"/></l><r>坐<s n="vblex"/></r></p></e>
+      <e><p><l>hxie<s n="n"/></l><r>心<s n="n"/></r></p></e>
+      <e><p><l>mopddi<s n="vblex"/></l><r>流出<s n="vblex"/></r></p></e>
+      <e><p><l>ku<s n="n"/></l><r>内<s n="n"/></r></p></e>
+      <e><p><l>ne<s n="pr"/></l><r>道<s n="pr"/></r></p></e>
+      <e><p><l>ryrggurwmu<s n="adv"/></l><r>严厉地<s n="adv"/></r></p></e>
+      <e><p><l>hxiplox<s n="vblex"/></l><r>嘱咐<s n="vblex"/></r></p></e>
+      <e><p><l>bbo<s n="vblex"/></l><r>走<s n="vblex"/></r></p></e>
+      <e><p><l>go<s n="prn"/></l><r>他<s n="prn"/></r></p></e>
+      <e><p><l>cy<s n="prn"/></l><r>他<s n="prn"/></r></p></e>
+      
+     
+      <e><p><l>lurkur<s n="n"/></l><r>城<s n="n"/></r></p></e>
+      <e><p><l>cyx<s n="det"/></l><r>这<s n="det"/></r></p></e>
+      <e><p><l>co<s n="n"/></l><r>人<s n="n"/></r></p></e>
+      <e><p><l>mu<s n="adv"/></l><r>都<s n="adv"/></r></p></e>
+      <e><p><l>la<s n="vblex"/></l><r>来<s n="vblex"/></r></p></e>
+      <e><p><l>lasix<s n="vblex"/></l><r>来到<s n="vblex"/></r></p></e>
+      <e><p><l>ipkobbux<s n="n"/></l><r>门<s n="n"/></r></p></e>
+      <e><p><l>xy<s n="n"/></l><r>角<s n="n"/></r></p></e>
+      <e><p><l>rep<s n="vblex"/></l><r>集中<s n="vblex"/></r></p></e>
+      <e><p><l>sat<s n="vblex"/></l><r>找<s n="vblex"/></r></p></e>
+      
+      <e><p><l>nzyt<s n="adj"/></l><r>纯洁<s n="adj"/></r></p></e>
+      <e><p><l>nrat<s n="adj"/></l><r>美丽<s n="adj"/></r></p></e>
+      <e><p><l>yyr<s n="n"/></l><r>灵魂<s n="n"/></r></p></e>
+      <e><p><l>yisu<s n="n"/></l><r>耶稣<s n="np"/></r></p></e>
+      <e><p><l>ga<s n="vblex"/></l><r>使<s n="vblex"/></r></p></e>
+      <e><p><l>hnox<s n="pr"/></l><r>直到<s n="pr"/></r></p></e>
+      <e><p><l>loxggu<s n="n"/></l><r>野外<s n="n"/></r></p></e>
+      
+      <e><p><l>lo<s n="n"/></l><r>山谷<s n="n"/></r></p></e>
+      <e><p><l>vat<s n="n"/></l><r>石<s n="n"/></r></p></e>
+      <e><p><l>bbo<s n="n"/></l><r>山<s n="n"/></r></p></e>
+      <e><p><l>cyxluo<s n="adv"/></l><r>突然<s n="adv"/></r></p></e>
+      <e><p><l>hxenjit<s n="n"/></l><r>网<s n="n"/></r></p></e>
+      <e><p><l>cypnyit<s n="prn"/></l><r>他俩<s n="prn"/></r></p></e>
+      <e><p><l>gup<s n="vblex"/></l><r>扔<s n="vblex"/></r></p></e>
+      <e><p><l>goxsha<s n="post"/></l><r>下<s n="post"/></r></p></e>
+      
+
+      <e><p><l>wamgot<s n="vblex"/></l><r>跟从<s n="vblex"/></r></p></e>
+      <e><p><l>bbo<s n="vblex"/></l><r>去<s n="vblex"/></r></p></e>
+      
+      <e><p><l>xymip<s n="prn"/></l><r>西蒙<s n="prn"/></r></p></e>
+      <e><p><l>sinip<s n="cnjcoo"/></l><r>和<s n="cnjcoo"/></r></p></e>
+      <e><p><l>qopbop<s n="n"/></l><r>朋友<s n="n"/></r></p></e>
+      <e><p><l>shep<s n="vblex"/></l><r>寻找<s n="vblex"/></r></p></e>
+      <e><p><l>ggex<s n="part"/></l><r>part<s n="pr"/></r></p></e>
+      <e><p><l>wex<s n="pr"/></l><r>到<s n="pr"/></r></p></e>
+      <e><p><l>te<s n="n"/></l><r>时候<s n="n"/></r></p></e>
+      <e><p><l>jox<s n="vblex"/></l><r>说<s n="vblex"/></r></p></e>
+      <e><p><l>hotpu<s n="prn"/></l><r>大家<s n="prn"/></r></p></e>
+      <e><p><l>shex<s n="part"/></l><r>part<s n="pr"/></r></p></e>
+
+      <e><p><l>mugox<s n="prn"/></l><r>木高<s n="prn"/></r></p></e>
+      <e><p><l>nge<s n="vblex"/></l><r>是<s n="vbser"/></r></p></e>
+      <e><p><l>hmatmop<s n="n"/></l><r>老师<s n="n"/></r></p></e>
+      
+      <e><p><l>sat<s n="part"/></l><r>都<s n="adv"/></r></p></e>
+      <e><p><l>ox<s n="part"/></l><r>了<s n="pr"/></r></p></e>
+      <e><p><l>li<s n="part"/></l><r>part<s n="pr"/></r></p></e>
+      <e><p><l>ma<s n="cl"/></l><r>个<s n="num"/></r></p></e>
+      
+      <e><p><l>lupo<s n="n"/></l><r>鲁珀<s n="n"/></r></p></e>
+      <e><p><l>jipndip<s n="vblex"/></l><r>保护<s n="vblex"/></r></p></e>
+      <e><p><l>latyy<s n="n"/></l><r>茶<s n="n"/></r></p></e>
+      <e><p><l>nyip<s n="num"/></l><r>两<s n="num"/></r></p></e>
+      <e><p><l>zhep<s n="cl"/></l><r>碗<s n="num"/></r></p></e>
+      <e><p><l>syt<s n="n"/></l><r>事<s n="n"/></r></p></e>
+      <e><p><l>wezze<s n="adj"/></l><r>用力<s n="adj"/></r></p></e>
+      <e><p><l>jjit<s n="cl"/></l><r>件<s n="num"/></r></p></e>
+      <e><p><l>bot<s n="vblex"/></l><r>跑<s n="vblex"/></r></p></e>
+      <e><p><l>ipnyip<s n="adv"/></l><r>今天<s n="adv"/></r></p></e>
+      <e><p><l>jieshat<s n="n"/></l><r>街上<s n="n"/></r></p></e>
+      <e><p><l>nry<s n="neg"/></l><r>没有<s n="adv"/></r></p></e>    
+      <e><p><l>nry<s n="n"/></l><r>红酒<s n="n"/></r></p></e>    
+      <e><p><l>ndo<s n="vblex"/></l><r>喝<s n="vblex"/></r></p></e>    
+      <e><p><l>cox<s n="n"/></l><r>人<s n="n"/></r></p></e>
+      <e><p><l>ngeget<s n="adj"/></l><r>所有<s n="adj"/></r></p></e>    
+      <e><p><l>jjy<s n="part"/></l><r>part<s n="part"/></r></p></e>    
+      <e><p><l>aplop<s n="adv"/></l><r>差不多地<s n="adv"/></r></p></e>    
+      <e><p><l>sup<s n="vblex"/></l><r>像<s n="vblex"/></r></p></e>    
+      <e><p><l>mopsu<s n="n"/></l><r>老人<s n="n"/></r></p></e>    
+      <e><p><l>ngax<s n="prn"/></l><r>我<s n="prn"/></r></p></e>    
+      <e><p><l>xix<s n="prn"/></l><r>什么<s n="prn"/></r></p></e>    
+      <e><p><l>ddieddur<s n="vblex"/></l><r>需要<s n="vblex"/></r></p></e>    
+      <e><p><l>yipsy<s n="adv"/></l><r>仍然<s n="adv"/></r></p></e>    
+      <e><p><l>bbapga<s n="n"/></l><r>村庄<s n="n"/></r></p></e>    
+      <e><p><l>katgonyi<s n="adj"/></l><r>所有<s n="adj"/></r></p></e>    
+      <e><p><l>jomga<s n="vblex"/></l><r>穿过<s n="vblex"/></r></p></e>    
+      <e><p><l>kaxddi<s n="prn"/></l><r>所有人<s n="prn"/></r></p></e>      
+      <e><p><l>qi<s n="vblex"/></l><r>想<s n="vblex"/></r></p></e>
+      <e><p><l>bbutvie<s n="n"/></l><r>花<s n="n"/></r></p></e>
+      <e><p><l>yyx<s n="n"/></l><r>水<s n="n"/></r></p></e>
+      <e><p><l>sha<s n="vblex"/></l><r>浇<s n="vblex"/></r></p></e>
+    
+   
+     
+      <e><p><l>ahnat<s n="adj"/></l><r>非常<s n="adj"/></r></p></e>
+      <e><p><l>shyr<s n="vblex"/></l><r>叫<s n="vblex"/></r></p></e>
+      <e><p><l>mat<s n="part"/></l><r>怕<s n="vblex"/></r></p></e>
+      <e><p><l>rremop<s n="n"/></l><r>钱<s n="n"/></r></p></e>
+      <e><p><l>jjo<s n="vblex"/></l><r>有<s n="vblex"/></r></p></e>
+      <e><p><l>apjjo<s n="vblex"/></l><r>没有<s n="vblex"/></r></p></e>
+      <e><p><l>tit<s n="cnjcoo"/></l><r>但是<s n="cnjcoo"/></r></p></e>
+      <e><p><l>vot<s n="n"/></l><r>猪<s n="n"/></r></p></e>
+      <e><p><l>va<s n="n"/></l><r>鸡<s n="n"/></r></p></e>
+      <e><p><l>axnyi<s n="adj"/></l><r>很多<s n="adj"/></r></p></e>
+      <e><p><l>ngopwox<s n="prn"/></l><r>我们<s n="prn"/></r></p></e>
+      <e><p><l>tatxi<s n="vblex"/></l><r>应该<s n="vblex"/></r></p></e>
+      
+      <e><p><l>hxiekat<s n="adj"/></l><r>开心<s n="adj"/></r></p></e>
+      <e><p><l>jjossy<s n="n"/></l><r>生命<s n="n"/></r></p></e>
+      <e><p><l>sho<s n="adj"/></l><r>长<s n="adj"/></r></p></e>
+      <e><p><l>ddeplox<s n="part"/></l><r>希望<s n="vblex"/></r></p></e>
+      <e><p><l>rroxmu<s n="pr"/></l><r>为<s n="pr"/></r></p></e>
+
+      <!--add following lexicon in transducer and in zho & check pr,part,post-->
+      <e><p><l>su<s n="part"/></l><r>的<s n="pr"/></r></p></e>
+      <e><p><l>guo<s n="adj"/></l><r>太<s n="adj"/></r></p></e>
+      <e><p><l>vitgga<s n="n"/></l><r>衣服<s n="n"/></r></p></e>
+      <e><p><l>pohxo<s n="vblex"/></l><r>染<s n="vblex"/></r></p></e>
+      <e><p><l>six<s n="post"/></l><r>成<s n="post"/></r></p></e>
+      <e><p><l>ahni<s n="adj"/></l><r>红<s n="adj"/></r></p></e>
+      <e><p><l>muda<s n="part"/></l><r>地<s n="part"/></r></p></e>
+      <e><p><l>ox<s n="part"/></l><r>了<s n="pr"/></r></p></e>
+      
+      <e><p><l>rrezza<s n="n"/></l><r>财产<s n="n"/></r></p></e>
+      <e><p><l>ne<s n="prn"/></l><r>你们<s n="prn"/></r></p></e>
+      <e><p><l>sot<s n="vblex"/></l><r>数<s n="vblex"/></r></p></e>
+      <e><p><l>bur<s n="adv"/></l><r>再<s n="adv"/></r></p></e>
+      <e><p><l>cyx<s n="part"/></l><r>这<s n="det"/></r></p></e>
+      <e><p><l>apnryr<s n="adj"/></l><r>成熟<s n="adj"/></r></p></e>
+      
+      <e><p><l>saddop<s n="n"/></l><r>福音<s n="n"/></r></p></e>
+      <e><p><l>bbur<s n="vblex"/></l><r>写<s n="vblex"/></r></p></e>
+      <e><p><l>suxmu<s n="n"/></l><r>预言家<s n="adj"/></r></p></e>
+      <e><p><l>gohxex<s n="vblex"/></l><r>看<s n="vblex"/></r></p></e>
+      <e><p><l>zyxsse<s n="n"/></l><r>使者<s n="n"/></r></p></e>
+      <e><p><l>mieplie<s n="adv"/></l><r>前面<s n="adv"/></r></p></e>
+      <e><p><l>ggapmop<s n="n"/></l><r>路<s n="n"/></r></p></e>
+      <e><p><l>rropzie<s n="adj"/></l><r>正确<s n="adj"/></r></p></e>
+      <e><p><l>ddop<s n="n"/></l><r>话<s n="n"/></r></p></e>
+      <e><p><l>gge<s n="cl"/></l><r>些<s n="cl"/></r></p></e>
+      <e><p><l>yophap<s n="n"/></l><r>约翰<s n="n"/></r></p></e>
+      <e><p><l>yotvi<s n="n"/></l><r>罪行<s n="n"/></r></p></e>
+      <e><p><l>yoptiep<s n="n"/></l><r>犹大<s n="adj"/></r></p></e>
+      <e><p><l>ddur<s n="vblex"/></l><r>出<s n="vblex"/></r></p></e>
+      <e><p><l>hxipryt<s n="vblex"/></l><r>忏悔<s n="vblex"/></r></p></e>
+      <e><p><l>yypmop<s n="n"/></l><r>大河<s n="n"/></r></p></e>
+      <e><p><l>gopbo<s n="n"/></l><r>身体<s n="n"/></r></p></e>
+      <e><p><l>jjut<s n="n"/></l><r>腰<s n="n"/></r></p></e>
+      <e><p><l>kex<s n="n"/></l><r>狗<s n="n"/></r></p></e>
+      <e><p><l>bu<s n="n"/></l><r>猪<s n="n"/></r></p></e>
+      <e><p><l>vatjji<s n="n"/></l><r>岩蜂<s n="n"/></r></p></e>
+      <e><p><l>wa<s n="adv"/></l><r>后面<s n="adv"/></r></p></e>
+      <e><p><l>wevi<s n="n"/></l><r>力量<s n="n"/></r></p></e>
+      <e><p><l>kut<s n="vblex"/></l><r>弯曲<s n="vblex"/></r></p></e>
+      <e><p><l>nzit<s n="adj"/></l><r>可能<s n="adj"/></r></p></e>
+      <e><p><l>jeqyt<s n="n"/></l><r>生水<s n="n"/></r></p></e>
+      <e><p><l>lotbuop<s n="vblex"/></l><r>帮助<s n="vblex"/></r></p></e>
+      <e><p><l>kepnyix<s n="adj"/></l><r>多少<s n="adj"/></r></p></e>
+      <e><p><l>yo<s n="n"/></l><r>羊<s n="n"/></r></p></e>
+      <e><p><l>hxe<s n="n"/></l><r>鱼<s n="n"/></r></p></e>
+      <e><p><l>gge<s n="vblex"/></l><r>听到<s n="vblex"/></r></p></e>
+      <e><p><l>ndup<s n="vblex"/></l><r>敲<s n="vblex"/></r></p></e>
+      <e><p><l>hxopu<s n="n"/></l><r>山<s n="n"/></r></p></e>
+   
+
+      <e><re>[\?;:!…¿¶。！：？]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+      <e><p><l>.<s n="sent"/></l><r>。<s n="sent"/></r></p></e>
+      <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
+   </section>
+</dictionary>
+
+<!--
+Resources:
+    https://wiki.apertium.org/wiki/Bilingual_dictionary
+    https://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Bilingual_dictionary
+    https://wiki.apertium.org/wiki/List_of_symbols
+-->

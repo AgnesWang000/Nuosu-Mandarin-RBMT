@@ -1,0 +1,82 @@
+!!!!!!!!!!!!!!!
+!! ATTRIBUTE CATEGORIES
+!!!!!!!!!!!!!!!
+
+
+!!!!!!!!!!!!!!!
+!! OUTPUT PATTERNS
+!!!!!!!!!!!!!!!
+
+n: _ ;
+prn: _ ;
+adj: _ ;
+cl: _ ;
+pr: _ ;
+part: _ ;
+vblex: _ ;
+pr: _ ;
+adv: _ ;
+num: _ ;
+
+NP: _ ;
+ClP: _ ;
+VP: _ ;
+PP: _ ;
+AP: _ ;
+S: _ ;
+AdvP: _ ;
+
+!!!!!!!!!!!!!!!
+!! TAG-REWRITE RULES
+!!!!!!!!!!!!!!!
+
+
+!!!!!!!!!!!!!!!
+!! MACROS
+!!!!!!!!!!!!!!!
+
+
+
+!!!!!!!!!!!!!!!
+!! REDUCTION RULES
+!!!!!!!!!!!!!!!
+
+NP -> n ClP {2 _ 1} |
+      NP cl {一@num _ 2 _ 1} |
+      prn {1} |
+      n {1} |
+      VP n {1 _ 的@pr _ 2} |
+      n adj {2 _ 的@pr _ 1} |
+      n li@part adj {3 _ 1} |
+      n n {1 _ 和@cnjcoo _ 2} |
+      n vblex {2 _ 1} |
+      NP li@part {1};
+      
+ClP -> part adj cl {2 _ 3} |
+       num cl {1 _ 2} |
+       cl {1};
+
+VP -> PP vblex {2 _ 1} |
+      NP vblex {2 _ 1} |
+      ddie@vblex NP bbyx@vblex {3 _ 2} |
+      VP njuo@pr {正在@vblex _ 1} |
+      vblex {1} |
+      ngeget@adv VP sat@part {1 _ 2} |
+      NP li@part adj {1 _ 3} |
+      vblex adv {2 _ 1} |
+      adj vblex {2 _ 1};
+      
+AdvP -> jjy@part adv {2};
+      
+PP -> NP pr {2 _ 1};
+
+S -> NP VP {2 _ 1} |
+     NP n ox@part {1 _ 是@vblex _ 2 _ 3} |
+     NP vblex VP {1 _ 都@adv _ 3} |
+     NP n n vblex {1 _ 给@vblex _ 2 _ 4 _ 3} |
+     NP n adj {1 _ 2 _ 是@vblex _ 3 _ 的@pr};
+     
+! Resources:
+! https://wiki.apertium.org/wiki/Apertium-recursive
+! https://wiki.apertium.org/wiki/Apertium-recursive/Formalism
+! https://wiki.apertium.org/wiki/Apertium-recursive/Cookbook
